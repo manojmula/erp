@@ -1,0 +1,9 @@
+<button class="primary-button" (click)="buttonClick()">
+    <ng-container *ngIf="isLoading" >
+        <img src="/signs/solid/bath.svg" alt="" class="filter-blue">
+        {{label | titlecase }}
+    </ng-container>
+    <ng-container *ngIf="!isLoading">
+        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+    </ng-container>
+</button>

@@ -1,0 +1,14 @@
+/* https://codepen.io/mcl28Magui/pen/PoqWEJe */
+.select {
+    position: relative;
+    width: 350px;
+}
+
+.select-text {
+    position: relative;
+    background-color: transparent;
+    width: 350px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 4px;
+    border: 2px solid var(--color-secondary);
+}

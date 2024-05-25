@@ -1,0 +1,15 @@
+<button class="primary-button" (click)="buttonClick()">
+  <ng-container *ngIf="isLoading">
+    <img src="/signs/solid/0.svg" alt="" class="filter-green">
+    <span>{{ label | titlecase }}</span>
+</ng-container>
+  
+    <ng-container *ngIf="!isLoading">
+    <div class="lds-ring">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </ng-container>
+</button>

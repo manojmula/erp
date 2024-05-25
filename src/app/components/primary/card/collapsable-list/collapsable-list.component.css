@@ -1,0 +1,5 @@
+* {
+    background-color: var(--color-primary);
+    color: var(--text-primary-color);
+    padding: 0.5rem;
+}

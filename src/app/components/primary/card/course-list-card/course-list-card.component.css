@@ -1,0 +1,82 @@
+.display-image {
+    width: 150px;
+}
+
+.card {
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.card-title{
+    font-size: var(--h3-font-size);
+    font-weight: var(--h3-font-weight);
+    line-height: var(--h3-line-height);
+    margin-bottom: var(--h3-margin-bottom);
+}
+
+hr{
+    border-top: 1px solid var(--color-primary);
+}
+
+.description{
+    font-size: var(--p-font-size);
+    font-weight: var(--p-font-weight);
+    line-height: var(--p-line-height);
+    margin-bottom: var(--p-margin-bottom);
+    margin-top: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;  
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+/* Progress bar */
+progress[value] {
+  --color: var(--success-color); /* the progress color */
+  --background: var(--warning-color); /* the background color */
+    height: 4px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  width: 100%;
+  margin: 10px 0px;
+  border-radius: 10em;
+  background: var(--background);
+}
+progress[value]::-webkit-progress-bar {
+  border-radius: 10em;
+  background: var(--background);
+}
+progress[value]::-webkit-progress-value {
+  border-radius: 10em;
+  background: var(--color);
+}
+progress[value]::-moz-progress-bar {
+  border-radius: 10em;
+  background: var(--color);
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin: 20px 0;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.details {
+    width: 2rem;
+    background-color: white;
+}
